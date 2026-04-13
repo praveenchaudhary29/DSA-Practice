@@ -13,7 +13,7 @@ class Solution {
         }else{
             int[] arr = new int[2];
             arr[0] = start;
-            arr[1] = currend;
+            arr[1] =  currend;
             result.add(arr);
             start = intervals[i][0];
             currend = intervals[i][1];
