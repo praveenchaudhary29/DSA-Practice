@@ -1,5 +1,5 @@
 //Question - Leetcode(1019 Medium)
-//Use Increasing Monotonic Stack to Find next Greater Node in Linked List
+//Use Increasing Monotonic Stack to Find next Greater Node in Linked List.
 class Solution {
     public int[] nextLargerNodes(ListNode head) {
        ListNode temp =head;
