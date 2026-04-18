@@ -7,7 +7,7 @@ class Solution {
         start = start.next;
       }
       if(start == null) return start;
-      ListNode current = start.next;
+      ListNode current  = start.next;
       ListNode prev = start;
       while(current != null){
         if(current.val == val){
