@@ -3,7 +3,7 @@
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
       ListNode start = head;
-      while(start != null && start.val == val){
+      while(start != null &&  start.val == val){
         start = start.next;
       }
       if(start == null) return start;
