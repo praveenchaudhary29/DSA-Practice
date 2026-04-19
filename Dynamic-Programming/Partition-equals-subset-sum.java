@@ -1,4 +1,6 @@
 //Question - Leetcode(416 Medium)
+//Here we have to make memoization to ensure that question does not exceed time limit
+//More Optimal solution will be to use 1D DP.
 class Solution {
     public boolean canPartition(int[] nums) {
       int sum = 0;
